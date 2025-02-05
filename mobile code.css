@@ -1,0 +1,31 @@
+/* Basic styles for a list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  ul {
+    padding: 10px;  /* Adding padding for smaller screens */
+  }
+
+  li {
+    font-size: 14px;  /* Smaller font size on mobile */
+    margin: 8px 0;  /* Reduce margin for tighter mobile view */
+  }
+
+  a {
+    color: #007BFF;  /* Change link color for mobile */
+  }
+}
